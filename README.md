@@ -5,6 +5,8 @@
 
 sshd enabled ubuntu docker image
 
+Docker image is available as [auchida/ubuntu-sshd](https://hub.docker.com/r/auchida/ubuntu-sshd/) in Docker Hub.
+
 ## Image tags
 
 - `16.04`, `xenial`, `latest`
@@ -13,7 +15,7 @@ sshd enabled ubuntu docker image
 
 ```console
 $ docker run -d -p 2222:22 auchida/ubuntu-sshd
-$ ssh root@localhost -p 2222
+$ ssh root@localhost -p 2222 # or ssh ubuntu@localhost -p 2222
 ```
 
 ## Installed packages
