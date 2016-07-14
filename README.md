@@ -10,6 +10,7 @@ Docker image is available as [auchida/ubuntu-sshd](https://hub.docker.com/r/auch
 ## Image tags
 
 - `16.04`, `xenial`, `latest`
+- `14.04`, `trusty`
 
 ## Usage
 
