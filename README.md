@@ -23,6 +23,7 @@ $ ssh root@localhost -p 2222 # or ssh ubuntu@localhost -p 2222
 
 - openssh-server
 - python
+- python-apt
 - sudo
 
 ## Login information
