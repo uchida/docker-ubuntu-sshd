@@ -35,8 +35,7 @@ $ ssh root@localhost -p 2222 # or ssh ubuntu@localhost -p 2222
 
 ## License
 
-Contents on this repository are dedicated to 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png "CC0")](https://creativecommons.org/publicdomain/zero/1.0/).
+Contents on this repository are dedicated to [![CC0 public domain](http://i.creativecommons.org/p/zero/1.0/80x15.png "CC0 public domain")](https://creativecommons.org/publicdomain/zero/1.0/).
 No rights reserved.
 
 License for distributed Docker images follows one of [Ubuntu Project](http://www.ubuntu.com/about).
