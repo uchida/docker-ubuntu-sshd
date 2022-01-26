@@ -1,0 +1,20 @@
+name: Docker Hub Upload
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  # github.repository is <account>/<repo>
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build . -f Dockerfile -t $IMAGE_NAME:$(date +%s) -t $IMAGE_NAME:latest
