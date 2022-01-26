@@ -25,3 +25,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    - if: github.ref == 'refs/heads/master'
+      name: Push image to Docker Hub
+      run: docker push --all-tags $IMAGE_NAME
