@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 MAINTAINER Akihiro Uchida <uchida@turbare.net>
 RUN apt-get update\
  && apt-get install -y --no-install-recommends openssh-server sudo python python-apt\
