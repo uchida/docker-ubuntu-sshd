@@ -1,7 +1,6 @@
 # docker-ubuntu-sshd
 
 [![License](https://img.shields.io/github/license/uchida/docker-ubuntu-sshd.svg?maxAge=2592000)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
-[![MicroBadger](https://images.microbadger.com/badges/image/auchida/ubuntu-sshd.svg)](http://microbadger.com/images/auchida/ubuntu-sshd)
 
 sshd enabled ubuntu docker image
 
@@ -9,7 +8,8 @@ Docker image is available as [auchida/ubuntu-sshd](https://hub.docker.com/r/auch
 
 ## Image tags
 
-- `16.04`, `xenial`, `latest`
+- `20.04`, `latest`
+- `16.04`, `xenial`
 - `14.04`, `trusty`
 
 ## Usage
